@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.ExoPlayerSample" parent="Base.Theme.ExoPlayerSample" />
+    <style name="Theme.ExoPlayerSample.NoActionBar" parent="Base.Theme.ExoPlayerSample">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
 </resources>
